@@ -13,7 +13,7 @@ set -euo pipefail
 cpptesttrace make clean all
 
 # Analyze
-cpptestcli -quiet -compiler gcc_13-64 -config "builtin://Recommended Rules" -module . -input cpptestscan.bdf
+cpptestcli -quiet -compiler gcc_11-64 -config "builtin://Recommended Rules" -module . -input cpptestscan.bdf
 
 # == CMake project ==
 

@@ -2,7 +2,7 @@
 	"servers": {
 		"cpptest-std-mcp": {
 			"type": "stdio",
-			"command": "/opt/parasoft/cpptest/integration/mcp/cpptestmcp",
+			"command": "/opt/Parasoft/cpptestStd/integration/mcp/cpptestmcp",
 			"args": []
 		}
 	},
