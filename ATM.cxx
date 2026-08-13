@@ -2,9 +2,8 @@
 #include "BaseDisplay.hxx"
 
 ATM::ATM(Bank* bank, BaseDisplay* display)
+    : myCurrentAccount(nullptr), myBank(bank), myDisplay(display)
 {
-    myBank = bank;
-    myDisplay = display;
 }
 
 void ATM::viewAccount(int accountNumber, string password)
