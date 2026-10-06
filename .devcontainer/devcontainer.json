@@ -1,5 +1,5 @@
 {
-    "image": "cpptest:ai_agent_demo_20261",
+    "image": "cpptest:ai_agent_demo_20261_copilot",
     "runArgs": [ "--rm" ],
     "mounts": ["type=bind,src=${localEnv:HOME}/.ssh,dst=/home/parasoft/.ssh"]
 }

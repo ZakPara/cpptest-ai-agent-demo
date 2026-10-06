@@ -1,3 +1,4 @@
 {
-    "cpptest.compilerIdentifier": "gcc_11-64"
+    "cpptest.compilerIdentifier": "gcc_11-64",
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input cpptestscan.bdf"
 }
